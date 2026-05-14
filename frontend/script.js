@@ -15,7 +15,7 @@ form.addEventListener("submit", async function(e){
         message: inputs[2].value
     };
 
-    const response = await fetch('https://portfolio-website-135t.onrender.com/contact', {
+    const response = await fetch('https://portfolio-website-135t.onrender.com/contact'), {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
